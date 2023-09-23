@@ -23,17 +23,15 @@ public class TakeWeapon : MonoBehaviour
     {
         for (int i = 0; i < weapon.Length; i++) 
         {
-            weapon[i].SetActive(false);
+            weapon[i].SetActive(i == number);
         }
-        weapon[number].SetActive(true);
     }
 
     public void ActivateShield(int number)
     {
         for (int i = 0; i < shield.Length; i++)
         {
-            shield[i].SetActive(false);
+            shield[i].SetActive(i == number);
         }
-        shield[number].SetActive(true);
     }
 }

@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   takeWeapon: {fileID: 0}
-  numberWeapon: 2
+  numberWeapon: 0
 --- !u!4 &309867911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400140, guid: a58d63122b09e9144938cd6a1ece4824, type: 3}
@@ -626,7 +626,6 @@ MonoBehaviour:
   weapon:
   - {fileID: 2085857523}
   - {fileID: 461861861}
-  - {fileID: 1700310119}
   shield:
   - {fileID: 1700310119}
 --- !u!114 &956169983
@@ -839,6 +838,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 309867911}
     m_Modifications:
+    - target: {fileID: 6542218581709590649, guid: 6cd1ac9652a50da4485a86492f47c63d, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8203073568141072114, guid: 6cd1ac9652a50da4485a86492f47c63d, type: 3}
       propertyPath: m_Name
       value: Ax_01 (1)

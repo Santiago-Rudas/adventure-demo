@@ -23,7 +23,7 @@ public class ActivateShield : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            takeWeapon.ActivateWeapon(numberWeapon);
+            takeWeapon.ActivateShield(numberWeapon);
         }
     }
 }
